@@ -15,7 +15,7 @@ export function addNewCycleAction(newCycle: Cycle) {
   }
 }
 
-export function markCurrentCyclesAsFinishedAction(newCycle: Cycle) {
+export function markCurrentCyclesAsFinishedAction() {
   return {
     type: ActionTypes.MARK_CURRENT_CYCLE_AS_FINISHED,
   }
